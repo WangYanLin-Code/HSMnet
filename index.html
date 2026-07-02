@@ -121,14 +121,6 @@
       <p style="color: #cdb8b8; font-size: 16px; margin-top: 0.8rem;">
         Submitted as conference paper at National Conference on Man-Machine Speech Communication, NCMMSC 2026
       </p>
-      <p class="lead" style="margin-top: 1.2rem;">
-        <a href="mailto:wang_yan_lin@stu.xju.edu.cn"><sup>1</sup>Yanlin Wang</a>,
-        <a href="mailto:huying@xju.edu.cn"><sup>1,2</sup>Ying Hu</a>
-      </p>
-      <p class="affiliation">
-        <sup>1</sup> School of Computer Science and Technology, Xinjiang University, Urumqi, China<br>
-        <sup>2</sup> Key Laboratory of Signal Detection and Processing, Xinjiang, Urumqi, China
-      </p>
     </div>
   </header>
 
@@ -152,12 +144,14 @@
             memory slots without growing computational cost. Speaker tracking is handled by a two-layer
             Transformer Dual-Source Attractor (DSA) with time-sampled key-value tokens and causal masked
             self-attention for explicit speaker competition. The complete pipeline integrates a Mamba-based
-            spectral encoder, parameter-sharing time-frequency interaction blocks, and a Transformer-based
+            spectral encoder, parameter-sharing time frequency interaction blocks, and a Transformer-based
             dual-source attractor for speaker tracking, together with the proposed hierarchical memory and
             attractor mechanisms, into a compact 5.8M-parameter system.
-            Across five benchmark datasets, HSMnet achieves state-of-the-art performance on EchoSet and
+            Across five benchmark datasets, HSMnet outperforms previously reported methods on EchoSet and
             single-channel LibriCSS, while remaining competitive with full-attention baselines on WSJ0-2Mix,
             Libri2Mix, and LRS2-2Mix, all while maintaining <i>O</i>(1) memory per chunk.
+            Audio samples and code are available at
+            <a href="https://anonymous.4open.science/r/HSMnet-B50A/" target="_blank">https://anonymous.4open.science/r/HSMnet-B50A/</a>.
           </p>
         </div>
       </div>
@@ -450,7 +444,7 @@
       <div class="row">
         <div class="col-lg-13 mx-auto">
           <p class="lead" align="center">
-            <a href="https://github.com/WangYanLin-Code/HSMnet/tree/main/code" target="_blank">HSMnet Code Repository</a>
+            <a href="https://anonymous.4open.science/r/HSMnet-B50A/" target="_blank">Anonymous Code Repository</a>
           </p>
         </div>
       </div>
